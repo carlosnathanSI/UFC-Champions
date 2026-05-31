@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ufc Champions</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/recordes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="prefetch" href="../pages/categorias.html">
+    <link rel="prefetch" href="../pages/galeria.html">
+    <link rel="prefetch" href="../pages/lutadores.html">
+    <link rel="prefetch" href="../pages/index.html">
+    <link rel="prefetch" href="../pages/sobre.html">
+</head>
+
+<body>
+    <script src="../js/script.js"></script>
+    <header class="header">
+        <section>
+            <a href="../pages/inicio.html" class="logo">
+                <img src="../images/logo-site-png.png" alt="logo">
+            </a>
+
+            <nav class="navbar">
+                <a href="#" onclick="trocarPagina('inicio.html','direita')">Inicio</a>
+                <a href="#" onclick="trocarPagina('categorias.html','direita')">Categorias</a>
+                <a href="#" onclick="trocarPagina('lutadores.html','direita')">Lutadores</a>
+                <a href="../pages/recordes.html">Recordes</a>
+                <a href="#" onclick="trocarPagina('galeria.html','esquerda')">Galeria</a>
+                <a href="#" onclick="trocarPagina('sobre.html','esquerda')">Sobre</a>
+            </nav>
+
+
+        </section>
+    </header>
+
+    <main class="conteudo">
+
+        <div class="cards-container">
+            <video autoplay muted loop playsinline preload="metadata" poster="thumb.jpg" class="bg-video">
+                <source src="../video/background-lutadores.webm" type="video/webm">
+            </video>
+            <section class="inicio-categoria">
+                <p class="section-tag">UFC</p>
+                <h1>TODOS OS <span>RECORDES</span></h1>
+                <p>
+                    Veja os Principais Recordes da História do UFC!!!.
+                </p>
+            </section>
+        </div>
+    </main>
+
+
+    <footer id="rodape">
+
+        <div id="footer-top">
+
+            <a href="../pages/inicio.html" id="footer-logo">
+                <span class="logo-footer">
+                    <img src="../images/logo-site-png.png" alt="logo">
+                </span>
+            </a>
+
+            <nav id="footer-nav">
+                <a href="../pages/inicio.html">Inicio</a>
+                <a href="../pages/categorias.html">Categorias</a>
+                <a href="../pages/lutadores.html">Lutadores</a>
+                <a href="../pages/recordes.html">Recordes</a>
+                <a href="../pages/galeria.html">Galeria</a>
+                <a href="../pages/sobre.html">Sobre</a>
+            </nav>
+
+        </div>
+
+        <div id="footer-bottom">
+
+            <p>
+                UFC Champios © 2026 — By Carlos Nathan —
+                Bacharelado em Sistemas de Informação — UniRios
+            </p>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

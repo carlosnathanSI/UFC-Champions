@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ufc Champions</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/inicio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="prefetch" href="../pages/categorias.html">
+    <link rel="prefetch" href="../pages/galeria.html">
+    <link rel="prefetch" href="../pages/lutadores.html">
+    <link rel="prefetch" href="../pages/recordes.html">
+    <link rel="prefetch" href="../pages/sobre.html">
+</head>
+
+<body>
+    <script src="../js/script.js"></script>
+    <header class="header">
+        <section>
+            <a href="../pages/inicio.html" class="logo">
+                <img src="../images/logo-site-png.png" alt="logo">
+            </a>
+
+            <nav class="navbar">
+                <a href="./inicio.html">Inicio</a>
+                <a href="#" onclick="trocarPagina('categorias.html','esquerda')">Categorias</a>
+                <a href="#" onclick="trocarPagina('lutadores.html','esquerda')">Lutadores</a>
+                <a href="#" onclick="trocarPagina('recordes.html','esquerda')">Recordes</a>
+                <a href="#" onclick="trocarPagina('galeria.html','esquerda')">Galeria</a>
+                <a href="#" onclick="trocarPagina('sobre.html','esquerda')">Sobre</a>
+
+            </nav>
+
+        </section>
+    </header>
+
+    <main class="conteudo">
+        <div class="home-container">
+            <video autoplay muted loop playsinline preload="metadata" poster="thumb.jpg" class="bg-video">
+                <source src="../video/charles background.webm" type="video/webm">
+            </video>
+            <section id="#inicio">
+                <div class="content">
+                    <h3>CONHEÇA TUDO SOBRE O MUNDO DO UFC!!</h3>
+                    <P>fique por dentro de tudo que acontece no UFC.Seus recordes,Seus Campeões e quais seram os
+                        proximos
+                        Cards do UFC.</P>
+                    <a href="./galeria.html" class="btn">ACESSE NOSSA GALERIA!!</a>
+                </div>
+            </section>
+        </div>
+
+        <h2>ENTENDA<span class="ufc"> MAIS </span></h2>
+
+        <section class="cards">
+            <div class="card">
+                <span class="card-icone">
+                    <img width="50" height="50" src="https://img.icons8.com/ios-glyphs/50/ffffff/judo.png" alt="judo" />
+                </span>
+                <h3>O SIGNIFICADO DE MMA</h3>
+                <p>MMA é a sigla em inglês para Mixed Martial Arts, que em português significa Artes Marciais Mistas. É
+                    um
+                    esporte de combate de contato total em que os atletas podem usar uma ampla variedade de técnicas de
+                    diferentes artes marciais — tanto em pé, quanto no chão.</p>
+
+            </div>
+
+            <div class="card">
+                <span class="card-icone">
+                    <img width="50" height="50" src="https://img.icons8.com/ios/50/ffffff/clock--v3.png"
+                        alt="clock--v3" />
+                </span>
+                <h3>DURAÇÃO DAS LUTAS</h3>
+                <p>Uma luta padrão do UFC dura no máximo 15 minutos (3 rounds de 5 minutos). Para disputas de cinturão
+                    ou
+                    lutas principais de eventos, o limite é de 25 minutos (5 rounds de 5 minutos). Há ainda um intervalo
+                    de
+                    1 minuto de descanso entre cada round.</p>
+
+            </div>
+
+            <div class="card">
+                <span class="card-icone">
+                    <img width="50" height="50"
+                        src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/50/ffffff/external-brazil-brazilian-carnival-flatart-icons-solid-flatarticons.png"
+                        alt="external-brazil-brazilian-carnival-flatart-icons-solid-flatarticons" />
+                </span>
+                <h3>O BRASIL NO UFC</h3>
+                <p>O Brasil é uma das maiores potências na história do UFC, sendo o país que ajudou a fundar o esporte e
+                    que
+                    mais revelou campeões e membros do Hall da Fama na organização. O país é pilar fundamental do
+                    esporte,
+                    combinando gerações de lendas pioneiras com talentos que hoje figuram no topo das divisões</p>
+
+            </div>
+
+            <div class="card">
+                <span class="card-icone">
+                    <img width="50" height="50"
+                        src="https://img.icons8.com/fluency-systems-regular/50/ffffff/poster.png" alt="poster" />
+                </span>
+                <h3>O QUE SÃO CARDS</h3>
+                <p>No UFC, um card é a programação oficial de todas as lutas de um evento, organizadas cronologicamente.
+                    O
+                    evento é estruturado em duas fases principais: o Card Preliminar (lutas de abertura com atletas em
+                    ascensão) e o Card Principal (o evento de elite, com os maiores nomes e disputas de cinturão).</p>
+            </div>
+
+        </section>
+
+        <section id="preview">
+
+            <h2>
+                EXPLORE <span class="ufc">O SITE</span>
+            </h2>
+
+            <div id="preview-cards">
+
+                <a href="../pages/categorias.html" class="preview-card preview-categorias">
+
+                    <div class="preview-overlay">
+                        <h3>CATEGORIAS</h3>
+
+                        <p>
+                            Conheça todas as categorias e os seus Campeões atuais Masculinas e Femininas do UFC!!.
+                        </p>
+                    </div>
+
+                </a>
+
+                <a href="../pages/lutadores.html" class="preview-card preview-lutadores">
+
+                    <div class="preview-overlay">
+                        <h3>LUTADORES</h3>
+
+                        <p>
+                            Veja os principais Lutadores da História da organização,Lendas,Personagens Históricos e
+                            Personalidades Epicas!!.
+                        </p>
+                    </div>
+
+                </a>
+
+                <a href="../pages/recordes.html" class="preview-card preview-recordes">
+
+                    <div class="preview-overlay">
+                        <h3>RECORDES</h3>
+
+                        <p>
+                            Conheça os principais recordes do ufc e os detentores dos Recordes!!.
+                        </p>
+                    </div>
+
+                </a>
+
+                <a href="../pages/galeria.html" class="preview-card preview-galeria">
+
+                    <div class="preview-overlay">
+                        <h3>GALERIA</h3>
+
+                        <p>
+                            Descubra momentos marcantes da História da organização!!.
+                        </p>
+                    </div>
+
+                </a>
+
+                <a href="../pages/sobre.html" class="preview-card preview-sobre">
+
+                    <div class="preview-overlay">
+                        <h3>SOBRE</h3>
+
+                        <p>
+                            Saiba mais sobre o projeto e as tecnologias utilizadas!!.
+                        </p>
+                    </div>
+
+                </a>
+
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer id="rodape">
+
+        <div id="footer-top">
+
+            <a href="../pages/inicio.html" id="footer-logo">
+                <span class="logo-footer">
+                    <img src="../images/logo-site-png.png" alt="logo">
+                </span>
+            </a>
+
+            <nav id="footer-nav">
+                <a href="../pages/inicio.html">Inicio</a>
+                <a href="../pages/categorias.html">Categorias</a>
+                <a href="../pages/lutadores.html">Lutadores</a>
+                <a href="../pages/recordes.html">Recordes</a>
+                <a href="../pages/galeria.html">Galeria</a>
+                <a href="../pages/sobre.html">Sobre</a>
+            </nav>
+
+        </div>
+
+        <div id="footer-bottom">
+
+            <p>
+                UFC Champios © 2026 — By Carlos Nathan —
+                Bacharelado em Sistemas de Informação — UniRios
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
