@@ -1,0 +1,282 @@
+:root {
+    --main-color: #d1b420;
+    --black: #13131a;
+    --bg: #010103;
+    --bg2: #050505;
+    --border: 0.2rem solid rgba(87, 87, 87, 0.123);
+    --card-bg: #141414;
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+    background-color: var(--bg);
+}
+
+.header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+}
+
+.navbar{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+.home-container section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar a{
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid #d1b42027;
+    padding-bottom: 0.5rem;
+    font-size: 1.9rem;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.icons img{
+    cursor: pointer;
+}
+.icons img:hover{
+    width:35px;
+    height: 35px;
+}
+
+#rodape {
+    background-color: var(--bg2);
+    border-top: 2px solid  rgba(31, 31, 31, 0.3);
+
+    padding: 35px 40px 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#footer-logo {
+
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--branco);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+#footer-logo span {
+    display: block;
+    color: var(--main-color);
+    font-size: 0.6em;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+}
+
+#footer-nav a {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: rgba(255,255,255,0.72);
+
+    transition: color 0.2s ease;
+}
+
+#footer-nav a:hover {
+    color: var(--main-color);
+}
+
+#footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.295);
+    padding-top: 18px;
+
+    text-align: center;
+}
+
+#footer-bottom p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 0.85rem;
+    letter-spacing: 0.3px;
+}
+
+.logo-footer img{
+    width: 100px;
+    height: auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.conteudo {
+    overflow-x: hidden;
+}
+
+
+.entrando-direita {
+    animation: entrarDireita 0.6s ease forwards;
+}
+
+.entrando-esquerda {
+    animation: entrarEsquerda 0.6s ease forwards;
+}
+
+@keyframes entrarDireita {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes entrarEsquerda {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+
+.saindo-direita {
+    animation: sairDireita 0.6s ease forwards;
+}
+
+.saindo-esquerda {
+    animation: sairEsquerda 0.6s ease forwards;
+}
+
+@keyframes sairDireita {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(100%); opacity: 0; }
+}
+
+@keyframes sairEsquerda {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(-100%); opacity: 0; }
+}
+
+.conteudo {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.sair-direita { transform: translateX(80px); opacity: 0; }
+.sair-esquerda { transform: translateX(-80px); opacity: 0; }
+
+.entrar-direita { transform: translateX(0); opacity: 1; }
+.entrar-esquerda { transform: translateX(0); opacity: 1; }
+
+
+
+body{
+  opacity: 1;
+  transition: opacity .25s ease;
+  transition:opacity .35s ease, transform .35s ease;
+  will-change: opacity, transform;
+}
+
+body.fade-out{
+  opacity: 0;
+  
+}
+
+body.fade{
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1.5s ease;
+}
+
+.reveal.ativo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reveal-right{
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 1.5s ease;
+}
+
+.reveal-right.active{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.reveal-left{
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 1.5s ease;
+}
+
+.reveal-left.active{
+    opacity: 1;
+    transform: translateX(0);
+}
