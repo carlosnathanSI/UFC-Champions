@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ufc Champions</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/recordes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="prefetch" href="../pages/categorias.html">
+    <link rel="prefetch" href="../pages/galeria.html">
+    <link rel="prefetch" href="../pages/lutadores.html">
+    <link rel="prefetch" href="../pages/index.html">
+    <link rel="prefetch" href="../pages/sobre.html">
+</head>
+
+<body>
+    <header class="header">
+        <section>
+            <a href="../pages/inicio.html" class="logo">
+                <img src="../images/logo-site-png.png" alt="logo">
+            </a>
+
+            <nav class="navbar">
+                <a href="#" onclick="trocarPagina('inicio.html','direita')">Inicio</a>
+                <a href="#" onclick="trocarPagina('categorias.html','direita')">Categorias</a>
+                <a href="#" onclick="trocarPagina('lutadores.html','direita')">Lutadores</a>
+                <a href="../pages/recordes.html">Recordes</a>
+                <a href="#" onclick="trocarPagina('galeria.html','esquerda')">Galeria</a>
+                <a href="#" onclick="trocarPagina('sobre.html','esquerda')">Sobre</a>
+            </nav>
+
+
+        </section>
+    </header>
+
+    <main class="conteudo">
+
+        <div class="cards-container">
+            <video autoplay muted loop playsinline preload="metadata" poster="thumb.jpg" class="bg-video">
+                <source src="../video/background-lutadores.webm" type="video/webm">
+            </video>
+            <section class="inicio-categoria">
+                <p class="section-tag">UFC</p>
+                <h1>TODOS OS <span>RECORDES</span></h1>
+                <p>
+                    Veja os Principais Recordes da História do UFC!!!.
+                </p>
+            </section>
+        </div>
+
+        <div class="reveal">
+            <div class="card-peso-mosca">
+                <h1><span>TOTAL DE LUTAS  / </span> VITÓRIAS</h1>
+                <section class="peso-mosca">
+                    <img src="../images/jim-miller.avif" alt="jim miller foto">
+                    <div class="joshua-van">
+                        <h2>DETENTOR: <span>JIM MILLER</span></h2>
+                        <p>A categoria peso-mosca do UFC engloba atletas de até 56,7 kg (ou 125 libras). Conhecida pela
+                            extrema agilidade, velocidade e alto volume de golpes, a divisão foi introduzida em 2012 e
+                            hoje
+                            é destaque por abrigar grandes talentos mundiais, tendo Joshua Van como atual campeão da
+                            divisão.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal">
+            <div class="card-peso-galo">
+                <h1><span>NOCAUTE  / </span> FINALIZAÇÃO</h1>
+                <section class="peso-galo">
+                    <img src="../images/charles.avif" alt="chales do bronxs foto">
+                    <div class="petr-yan">
+                        <h2>DETENTOR: <span>CHARLES OLIVEIRA</span></h2>
+                        <p>A categoria Peso-Galo do UFC é uma das divisões mais competitivas da organização, com limite
+                            de
+                            peso de até 61,2 kg (135 lbs) para lutas normais ou 61,6 kg em confrontos sem cinturão. É
+                            uma
+                            categoria masculina dinâmica, marcada pela velocidade e agilidade dos atletas, tendo Petr
+                            Yan
+                            como atual campeão da divisão.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal-left">
+            <div class="card-peso-pena">
+                <h1><span>VITÓRIA POR NOCAUTE  / </span> NOCAUTE TÉCNICO</h1>
+                <section class="peso-pena">
+                    <img src="../images/DERRICK LEWIS.avif" alt="DERRICK LEWIS foto">
+                    <div class="alexander-volkanovski">
+                        <h2>DETENTOR: <span>DERRICK LEWIS</span></h2>
+                        <p>A categoria peso-pena do UFC é a divisão até 65,7 kg (145 libras). Conhecida por abrigar
+                            alguns
+                            dos lutadores mais rápidos e dinâmicos do esporte, a divisão tem o brasileiro José Aldo como
+                            seu
+                            primeiro e maior campeão histórico, tendo Alexander Volkanovski como atual campeão da
+                            divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal-right">
+            <div class="card-peso-leve">
+                <h1><span>VITÓRIA</span> POR FINALIZAÇÃO</h1>
+                <section class="peso-leve">
+                    <img src="../images/charles.avif" alt="Charles Oliveira foto">
+                    <div class="ilia-topuria">
+                        <h2>DETENTOR: <span>CHARLES OLIVEIRA</span></h2>
+                        <p>A categoria peso-leve é uma das mais competitivas e prestigiadas do UFC, com limite de 70,3
+                            kg
+                            (155 lbs). Conhecida pelo alto nível técnico e intensidade, já foi dominada por lendas como
+                            BJ
+                            Penn, Conor McGregor e Khabib Nurmagomedov, tendo Ilia Topuria como atual campeão da
+                            divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="reveal">
+            <div class="card-peso-meio-medio">
+                <h1><span>VITÓRIA</span> POR DECISÃO</h1>
+                <section class="peso-meio-medio">
+                    <img src="../images/BRAD TAVARES.jfif" alt="BRAD TAVARES foto">
+                    <div class="islam-makhachev">
+                        <h2>DETENTOR: <span>BRAD TAVARES</span></h2>
+                        <p>A categoria peso meio-médio do UFC abrange atletas com até 77,1 kg (ou 170 libras). Esta
+                            divisão
+                            é uma das mais disputadas e históricas do esporte, abrigando tanto a classe principal de
+                            peso
+                            quanto os critérios de pesagem padrão do Ultimate Fighting Championship, tendo Islam
+                            Makhachev
+                            como atual campeão da divisão.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal-left">
+            <div class="card-peso-medio">
+                <h1><span>SEQUÊNCIA</span> DE VITÓRIAS</h1>
+                <section class="peso-medio">
+                    <img src="../images/spider.jfif" alt="Anderson Silva foto">
+                    <div class="sean-strickland">
+                        <h2>DETENTOR: <span>ANDERSON SILVA</span></h2>
+                        <p>A categoria dos pesos-médios do UFC engloba atletas com até 83,9 Kg (185 libras). O atual
+                            campeão
+                            linear é Sean Strickland, que conquistou o cinturão após derrotar Khamzat Chimaev no evento
+                            principal do UFC 328.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal-right">
+            <div class="card-peso-meio-pesado">
+                <h1><span>VITÓRIA EM DISPUTA</span> DE CINTURÃO</h1>
+                <section class="peso-meio-pesado">
+                    <img src="../images/jon-jones.webp" alt="JON JONES foto">
+                    <div class="carlos-ulberg">
+                        <h2>CAMPEÃO: <span>JON JONES</span></h2>
+                        <p>A categoria peso meio-pesado do UFC engloba lutadores que pesam até 92,9 kg (205 lbs).
+                            Historicamente marcada pelo domínio de lendas como Jon Jones, é atualmente considerada uma
+                            das
+                            divisões mais competitivas e focadas na trocação da organização, tendo Carlos Ulberg como
+                            atual
+                            campeão da divisão.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal">
+            <div class="card-peso-pesado">
+                <h1><span>TOTAL</span> DE BÔNUS</h1>
+                <section class="peso-pesado">
+                    <img src="../images/charles.avif" alt="Charles Oliveira foto">
+                    <div class="tom-aspinall">
+                        <h2>DETENTOR: <span>CHARLES OLIVEIRA</span></h2>
+                        <p>A categoria dos pesos-pesados do UFC agrupa os maiores atletas da organização, com limites
+                            que
+                            variam de 93 kg até 120,2 kg (206 a 265 libras). É a divisão mais pesada do esporte, onde a
+                            força bruta e o poder de nocaute são fatores decisivos, tendo Tom Aspinall como atual
+                            campeão da
+                            divisão.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="reveal-left">
+            <div class="card-peso-palha-feminino">
+                <h1><span>MENOR TEMPO MÉDIO</span> DE LUTA</h1>
+                <section class="peso-palha-feminino">
+                    <img src="../images/TERRANCE MCKINNEY.jpg" alt="TERRANCE MCKINNEY foto">
+                    <div class="mackenzie-dern">
+                        <h2>DETENTOR: <span>TERRANCE MCKINNEY</span></h2>
+                        <p>A categoria peso-palha feminino do UFC abrange atletas com limite de peso de até (52,2) kg
+                            (115
+                            libras). Introduzida em 2014, a divisão se destaca por ser uma das mais competitivas do MMA.
+                            Atualmente, o cinturão está sob o domínio da brasileira Mackenzie Dern.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal-right">
+            <div class="card-peso-mosca-feminino">
+                <h1><span>MAIOR TEMPO MÉDIO</span> DE LUTA</h1>
+                <section class="peso-mosca-feminino">
+                    <img src="../images/peso-galo-feminino.Valentina.avif" alt="Valentina Shevchenko foto">
+                    <div class="valentina-shevchenko">
+                        <h2>DETENTORA: <span>VALENTINA SHEVCHENKO</span></h2>
+                        <p>A categoria peso-mosca feminino do UFC possui um limite de até 56,7 kg (125 lbs). A divisão é
+                            atualmente liderada pela campeã dominante Valentina "Bullet" Shevchenko, com a brasileira
+                            Natália Silva ocupando a 1ª colocação do ranking oficial da organização, tendo VAlentina
+                            Shevchenko como atual campeão da divisão.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal">
+            <div class="card-peso-galo-feminino">
+                <h1><span>TEMPO TOTAL</span> DE LUTA</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/holloway.webp" alt="Max Holloway foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>MAX HOLLOWAY</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal-left">
+            <div class="card-peso-galo-feminino">
+                <h1><span>TEMPO</span> DE CONTROLE</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/Georges St-Pierre.jpg" alt="Georges ST-Pierre foto" class="picture">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>GEORGES ST-PIERRE</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal-right">
+            <div class="card-peso-galo-feminino">
+                <h1><span>PERCENTUAL DE TEMPO</span> DE CONTROLE</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/BARTOSZ FABINSKI.jfif" alt="BARTOSZ FABINSKI foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>BARTOSZ FABINSKI</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal">
+            <div class="card-peso-galo-feminino">
+                <h1><span>TEMPO POR CIMA</span> NO CHÃO</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/Georges St-Pierre.jpg" alt="Georges ST-Pierre foto" class="picture">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>GEORGES ST-PIERRE</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal-left">
+            <div class="card-peso-galo-feminino">
+                <h1><span> PERCENTUAL DE TEMPO</span> POR CIMA NO CHÃO</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/Georges St-Pierre.jpg" alt="Georges ST-Pierre foto" class="picture">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>JAILTON ALMEIDA</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal-right">
+            <div class="card-peso-galo-feminino">
+                <h1><span>TEMPO</span> POR BAIXO NO CHÃO</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/ateba.jfif" alt="ATEBA GAUTIER foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>ATEBA GAUTIER</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal">
+            <div class="card-peso-galo-feminino">
+                <h1><span> PERCENTUAL DE TEMPO</span> POR BAIXO NO CHÃO</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/ateba.jfif" alt="ATEBA GAUTIER foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>ATEBA GAUTIER</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+
+        <div class="reveal-left">
+            <div class="card-peso-galo-feminino">
+                <h1><span>KNOCK</span>DOWNS</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/DONALD CERRONE.jpg" alt="DONALD CERRONE foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>DONALD CERRONE</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="reveal-right">
+            <div class="card-peso-galo-feminino">
+                <h1><span>MÉDIA DE KNOCKDOWNS</span> A CADA 15 MIN.</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/DREW MCFEDRIES.jpeg" alt="DREW MCFEDRIES foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>DREW MCFEDRIES</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="reveal">
+            <div class="card-peso-galo-feminino">
+                <h1><span>GOLPES SIGNIFICATIVOS</span> CONECTADOS</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/holloway.webp" alt="MAX HOLLOWAY foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>MAX HOLLOWAY</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <div class="reveal-left">
+            <div class="card-peso-galo-feminino">
+                <h1><span>PRECISÃO DE GOLPES</span> CONECTADOS</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/ALISTAIR OVEREEM.avif" alt="ALISTAIR OVEREEM foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>ALISTAIR OVEREEM</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="reveal-right">
+            <div class="card-peso-galo-feminino">
+                <h1>GOLPES CONECTADOS <span>POR MIN.</span></h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/peso-mosca.joshua.van.avif" alt="JOSHUA VAN foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>JOSHUA VAN</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal">
+            <div class="card-peso-galo-feminino">
+                <h1><span>DIFERENCIAL</span> DE GOLPES</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/CRISTIANE JUSTINO.avif" alt="CRISTIANE JUSTINO foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>CRISTIANE JUSTINO</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal-left">
+            <div class="card-peso-galo-feminino">
+                <h1>DEFESA DE <span>GOLPES SIGNIFICATIVOS</span></h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/Georges St-Pierre.jpg" alt="GEORGES ST-PIERRE foto" class="picture">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>GEORGES ST-PIERRE</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="reveal-right">
+            <div class="card-peso-galo-feminino">
+                <h1><span>GOLPES ABSORVIDOS</span> POR MIN.</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/PETE SPRATT.jpg" alt="PETE SPRATT foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>PETE SPRATT</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="reveal">
+            <div class="card-peso-galo-feminino">
+                <h1>TOTAL DE <span>GOLPES CONECTADOS</span></h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/holloway.webp" alt="MAX HOLLOWAY foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>MAX HOLLOWAY</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="reveal-left">
+            <div class="card-peso-galo-feminino">
+                <h1><span>QUEDAS</span> APLICADAS</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/merab.jfif" alt="MERAB DVALISHVILI foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>MERAB DVALISHVILI</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="reveal-right">
+            <div class="card-peso-galo-feminino">
+                <h1>TAXA DE <span>PRECISÃO DE QUEDAS</span></h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/NORDINE TALEB.webp" alt="NORDINE TALEB foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>NORDINE TALEB</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="reveal">
+            <div class="card-peso-galo-feminino">
+                <h1><span>TAXA DE DEFESAS</span> DE QUEDA</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/julio-arce.jpg" alt="JULIO ARCE foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>JULIO ARCE</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="reveal-left">
+            <div class="card-peso-galo-feminino">
+                <h1><span>TENTATIVAS DE <span>FINALIZAÇÃO</span></h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/jim-miller.avif" alt="JIM MILLER foto">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>JIM MILLER</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="reveal-right">
+            <div class="card-peso-galo-feminino">
+                <h1><span>MÉDIA DE FINALIZAÇÕES</span> A CADA 15 MIN.</h1>
+                <section class="peso-galo-feminino">
+                    <img src="../images/sass.jpeg" alt="PAUL SASS foto" class="picture2">
+                    <div class="kayla-harrison">
+                        <h2>DETENTOR: <span>PAUL SASS</span></h2>
+                        <p>A categoria peso-galo feminino do UFC possui um limite de 61,2 kg (135 lbs). A divisão foi
+                            introduzida na organização em 2012, após a absorção do Strikeforce, e ficou historicamente
+                            marcada pelo reinado de Ronda Rousey, tendo Kayla Harrison como atual campeão da divisão.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+    </main>
+
+
+    <footer id="rodape">
+
+        <div id="footer-top">
+
+            <a href="../pages/inicio.html" id="footer-logo">
+                <span class="logo-footer">
+                    <img src="../images/logo-site-png.png" alt="logo">
+                </span>
+            </a>
+
+            <nav id="footer-nav">
+                <a href="../pages/inicio.html">Inicio</a>
+                <a href="../pages/categorias.html">Categorias</a>
+                <a href="../pages/lutadores.html">Lutadores</a>
+                <a href="../pages/recordes.html">Recordes</a>
+                <a href="../pages/galeria.html">Galeria</a>
+                <a href="../pages/sobre.html">Sobre</a>
+            </nav>
+
+        </div>
+
+        <div id="footer-bottom">
+
+            <p>
+                UFC Champios © 2026 — By Carlos Nathan —
+                Bacharelado em Sistemas de Informação — UniRios
+            </p>
+
+        </div>
+
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
