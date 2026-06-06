@@ -1,0 +1,253 @@
+.home-container{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.content{
+    max-width: 60rem;
+}
+
+.content h3{
+    color: #fff;
+    font-size: 6rem;
+}
+
+.content p{
+    color: #d6d6d6;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.home-container section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.card{
+    background: var(--card-bg);
+    color: #fff;
+    width: auto;
+    padding: 30px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.card-icone {
+    display: block;
+
+    font-size: 2.5rem;
+
+    margin-bottom: 18px;
+}
+
+.card:hover{
+    transform:scale(1.02);
+    box-shadow: 0 8px 22px #fad4187c;
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 1.6rem;
+
+    margin-bottom: 14px;
+}
+
+h2{
+    margin-top: 4.5rem;
+    color: var(--main-color);
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 4rem;   
+}
+
+h2 .ufc{
+    color: #fff;
+}
+
+.card p {
+    color: rgba(255,255,255,0.68);
+
+    line-height: 2;
+}
+
+
+
+#preview{
+    background-color: #050505;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 80px 0;
+    border-top: rgba(46, 46, 46, 0.3);
+}
+
+#preview h2{
+    margin-bottom: 10rem;
+}
+
+#preview-titulo {
+    font-size: 1rem;
+    letter-spacing: 4px;
+    color: var(--main-color);
+    margin-bottom: 50px;
+}
+
+#preview-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 28px;
+
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.preview-card {
+    position: relative;
+    overflow: hidden;
+
+    min-height: 240px;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.preview-card::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.45),
+            rgba(0,0,0,0.82)
+        );
+
+    z-index: 1;
+}
+
+.preview-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow: 0 8px 24px #d1b4207c;
+}
+
+.preview-overlay {
+    position: relative;
+    z-index: 2;
+
+    padding: 24px;
+}
+
+.preview-overlay h3 {
+    font-size: 2rem;
+
+    color: var(--main-color);
+
+    margin-bottom: 12px;
+}
+
+.preview-overlay p {
+    max-width: 280px;
+
+    color: #fff;
+
+    line-height: 1.7;
+}
+
+.preview-categorias{
+    background: url(../images/preview-categoria.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.preview-lutadores{
+    background: url(../images/preview-lutadores.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.preview-recordes{
+    background: url(../images/preview-recordes.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.preview-galeria{
+    background: url(../images/preview-galeria.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.preview-sobre{
+    background: url(../images/preview-sobre.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.btn{
+    background: var(--main-color);
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: 5px 5px;
+    border-color: var(--card-bg);
+
+}
+
+
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}

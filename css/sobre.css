@@ -1,0 +1,126 @@
+.cards-container{
+    padding: 130px 40px 70px;
+    text-align: center;
+}
+
+.section-tag {
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+    color: #636261;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    
+}
+
+.cards-container{
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom:  0.2rem solid var(--border);
+    
+}
+
+.bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.3;
+    background-size: cover;
+    background-position: center;
+}
+
+.inicio-categoria h1 {
+    font-size: clamp(3rem, 8vw, 6rem);
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 20px;
+    
+}
+
+.inicio-categoria  h1 span {
+    color: var(--main-color);
+}
+
+.inicio-categoria  > p:last-child {
+    max-width: 700px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.1rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container p {
+    color: rgba(255,255,255,0.7);
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 170px);
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.tech-card {
+    background: var(--card-bg);
+    border-top: 3px solid var(--main-color);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.tech-card img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+#sobre {
+    padding: 70px 40px;
+    background: var(--bg);
+    border-bottom: 0.1 solid var(--border);
+}
+
+#sobre3{
+    padding: 70px 40px;
+    background: var(--bg);
+    
+}
+
+#sobre2{
+    background: var(--bg2);
+    padding: 70px 40px;
+    border-bottom: 0.1 solid var(--border);
+}
